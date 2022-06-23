@@ -1,1 +1,1 @@
-# FFmpeg-VSCode-Debug-Windows
+# FFmpeg-Debug-VSCode-Windows
