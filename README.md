@@ -28,8 +28,61 @@ Yonghye@DESKTOP-RNUFNCT MSYS ~
  there is nothing to do
 ```
 
+Install all mingw-w64-x86_64-* at `step 7`.
+
+You will see the below text and get confused. Just press Enter!
+
+```bash
+:: There are 19 members in group mingw-w64-x86_64-toolchain:
+:: Repository mingw64
+   1) mingw-w64-x86_64-binutils  2) mingw-w64-x86_64-crt-git
+   3) mingw-w64-x86_64-gcc  4) mingw-w64-x86_64-gcc-ada
+   5) mingw-w64-x86_64-gcc-fortran  6) mingw-w64-x86_64-gcc-libgfortran
+   7) mingw-w64-x86_64-gcc-libs  8) mingw-w64-x86_64-gcc-objc
+   9) mingw-w64-x86_64-gdb  10) mingw-w64-x86_64-gdb-multiarch
+   11) mingw-w64-x86_64-headers-git  12) mingw-w64-x86_64-libgccjit
+   13) mingw-w64-x86_64-libmangle-git  14) mingw-w64-x86_64-libwinpthread-git
+   15) mingw-w64-x86_64-make  16) mingw-w64-x86_64-pkgconf
+   17) mingw-w64-x86_64-tools-git  18) mingw-w64-x86_64-winpthreads-git
+   19) mingw-w64-x86_64-winstorecompat-git
+Enter a selection (default=all):
+```
+
+Also, I recommend you run `pacman -S --needed base-devel mingw-w64-x86_64-toolchain` command **several times** at `step 7`.
+
+If the installation is finished sucessfully, you can see the results like the below.
+```bash
+warning: base-devel-2022.01-2 is up to date -- skipping
+warning: mingw-w64-x86_64-binutils-2.38-3 is up to date -- skipping
+warning: mingw-w64-x86_64-crt-git-10.0.0.r32.g89bacd2be-1 is up to date -- skipping
+warning: mingw-w64-x86_64-gcc-12.1.0-2 is up to date -- skipping
+warning: mingw-w64-x86_64-gcc-ada-12.1.0-2 is up to date -- skipping
+warning: mingw-w64-x86_64-gcc-fortran-12.1.0-2 is up to date -- skipping
+warning: mingw-w64-x86_64-gcc-libgfortran-12.1.0-2 is up to date -- skipping
+warning: mingw-w64-x86_64-gcc-libs-12.1.0-2 is up to date -- skipping
+warning: mingw-w64-x86_64-gcc-objc-12.1.0-2 is up to date -- skipping
+warning: mingw-w64-x86_64-gdb-12.1-2 is up to date -- skipping
+warning: mingw-w64-x86_64-gdb-multiarch-12.1-2 is up to date -- skipping
+warning: mingw-w64-x86_64-headers-git-10.0.0.r32.g89bacd2be-1 is up to date -- skipping
+warning: mingw-w64-x86_64-libgccjit-12.1.0-2 is up to date -- skipping
+warning: mingw-w64-x86_64-libmangle-git-10.0.0.r32.g89bacd2be-1 is up to date -- skipping
+warning: mingw-w64-x86_64-libwinpthread-git-10.0.0.r32.g89bacd2be-1 is up to date -- skipping
+warning: mingw-w64-x86_64-make-4.3-1 is up to date -- skipping
+warning: mingw-w64-x86_64-pkgconf-1.8.0-2 is up to date -- skipping
+warning: mingw-w64-x86_64-tools-git-10.0.0.r32.g89bacd2be-2 is up to date -- skipping
+warning: mingw-w64-x86_64-winpthreads-git-10.0.0.r32.g89bacd2be-1 is up to date -- skipping
+warning: mingw-w64-x86_64-winstorecompat-git-10.0.0.r32.g89bacd2be-1 is up to date -- skipping
+ there is nothing to do
+```
 
 ### 2. 
+
+These commands must be installed on MSYS2 prompt.
+
+```bash
+pacman -S git 
+pacman -S make diffutils nasm yasm
+```
 
 ## References
 [neptune46/ffmpeg-vscode](https://github.com/neptune46/ffmpeg-vscode)
