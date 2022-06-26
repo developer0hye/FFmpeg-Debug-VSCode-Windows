@@ -75,7 +75,7 @@ warning: mingw-w64-x86_64-winstorecompat-git-10.0.0.r32.g89bacd2be-1 is up to da
  there is nothing to do
 ```
 
-### 2. Install tools and packages for building ffmpeg
+### 2. Install tools and packages for building FFmpeg
 
 These commands must be installed on MSYS2 prompt.
 
