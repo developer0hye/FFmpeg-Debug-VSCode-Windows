@@ -8,7 +8,7 @@ This guide is a modern version of [neptune46/ffmpeg-vscode](https://github.com/n
 
 Just follow [the official installation guide](https://www.msys2.org/#installation).
 
-I recommend you run `pacman -Syu` command several times at `step 5` because downloading some packages can be failed due to some issues.
+I recommend you run `pacman -Syu` command **several times** at `step 5` because downloading some packages can be failed due to some issues.
 
 If the installation is finished sucessfully, you can see the results like the below.
 
