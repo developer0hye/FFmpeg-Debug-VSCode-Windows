@@ -1,5 +1,7 @@
 # FFmpeg-Debug-VSCode-Windows
 
+This guide is a modern version of [neptune46/ffmpeg-vscode](https://github.com/neptune46/ffmpeg-vscode) written four years ago.
+
 ## Preparation
 
 ### 1. Download MSYS2
