@@ -97,10 +97,7 @@ cd FFmpeg
 make -j8
 ```
 
-After build, `ffmpeg_g.exe` will be genereated in `~/FFmpeg`.
-```
-ls
-```
+After build, `ffmpeg_g.exe` will be genereated in `~/FFmpeg`. Congratulation!
 
 ```bash
 yonghye@DESKTOP-OE4KJAL MINGW64 ~/FFmpeg
