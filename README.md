@@ -83,6 +83,20 @@ These commands must be ran on MSYS2 prompt.
 pacman -S git 
 pacman -S make diffutils nasm yasm
 ```
+## Clone & Build FFmpeg
+
+These commands must be ran on MSYS2 prompt.
+
+```bash
+cd c:\msys64
+./mingw64.exe
+cd ~
+git clone https://github.com/FFmpeg/FFmpeg.git
+cd FFmpeg
+```
+
+
+## Debug FFmpeg on VSCode!
 
 ## References
 [neptune46/ffmpeg-vscode](https://github.com/neptune46/ffmpeg-vscode)
