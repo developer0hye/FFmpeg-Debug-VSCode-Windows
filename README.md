@@ -81,7 +81,7 @@ These commands must be ran on MSYS2 prompt.
 
 ```bash
 pacman -S git 
-pacman -S make diffutils nasm yasm
+pacman -S nasm yasm
 ```
 ## Clone & Build FFmpeg
 
@@ -93,8 +93,9 @@ cd c:\msys64
 cd ~
 git clone https://github.com/FFmpeg/FFmpeg.git
 cd FFmpeg
+./configure --enable-debug=3 --disable-optimizations
+make -j8
 ```
-
 
 ## Debug FFmpeg on VSCode!
 
