@@ -131,10 +131,10 @@ code .
 
 Install [C/C++ Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) on your VSCode.
 
-Modify a `./.vscode/task.json`
+Modify a `.vscode/tasks.json`
 ```
 ```
 
-Modify a `./.vscode/task.json`
+Modify a `.vscode/launch.json`
 ```
 ```
