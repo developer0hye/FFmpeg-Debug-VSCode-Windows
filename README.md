@@ -77,7 +77,7 @@ warning: mingw-w64-x86_64-winstorecompat-git-10.0.0.r32.g89bacd2be-1 is up to da
 
 ### 2. Install tools and packages for building FFmpeg
 
-These commands must be ran on MSYS2 prompt.
+These commands must be ran on **MSYS2** prompt.
 
 ```bash
 pacman -S git 
@@ -85,7 +85,7 @@ pacman -S nasm yasm
 ```
 ## Clone & Build FFmpeg
 
-These commands must be ran on MSYS2 prompt.
+These commands must be ran on **MSYS2** prompt.
 
 ```bash
 cd c:\msys64
@@ -113,6 +113,17 @@ INSTALL.md        config.h     ffprobe_g.exe        libswresample
 ```
 
 ## Debug FFmpeg on VSCode!
+
+Open FFmpeg project on VSCode
+
+If you downloaded MSYS2 following official guide, your FFmpeg project may be located in `C:\msys64\home\{user_name}\FFmpeg`.
+
+These commands must be ran on **Commpand Prompt** of Windows not MSYS2.
+
+```bash
+cd C:\msys64\home\{user_name}\FFmpeg
+code .
+```
 
 ## References
 [neptune46/ffmpeg-vscode](https://github.com/neptune46/ffmpeg-vscode)
