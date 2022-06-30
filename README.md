@@ -114,7 +114,7 @@ INSTALL.md        config.h     ffprobe_g.exe        libswresample
 
 ## Debug FFmpeg on VSCode!
 
-Open FFmpeg project on VSCode
+Open FFmpeg project on VSCode.
 
 If you downloaded MSYS2 following official guide, your FFmpeg project may be located in `C:\msys64\home\{user_name}\FFmpeg`.
 
@@ -123,4 +123,16 @@ These commands must be ran on **Commpand Prompt** of Windows not MSYS2.
 ```bash
 cd C:\msys64\home\{user_name}\FFmpeg
 code .
+```
+
+Install [C/C++ Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) on your VSCode.
+
+Generate and modify a `task.json` to define run command for debugging.
+```
+Press `Ctrl + Shift + p` on VSCode
+```
+
+Generate and modify a `launch.json` to define command for debugging.
+```
+Press `Ctrl + Shift + p` on VSCode
 ```
