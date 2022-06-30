@@ -124,6 +124,3 @@ These commands must be ran on **Commpand Prompt** of Windows not MSYS2.
 cd C:\msys64\home\{user_name}\FFmpeg
 code .
 ```
-
-## References
-[neptune46/ffmpeg-vscode](https://github.com/neptune46/ffmpeg-vscode)
