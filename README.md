@@ -122,17 +122,19 @@ These commands must be ran on **Commpand Prompt** of Windows not MSYS2.
 
 ```bash
 cd C:\msys64\home\{user_name}\FFmpeg
+mkdir .vscode
+cd .vscode
+type NUL > tasks.json
+type NUL > launch.json
 code .
 ```
 
 Install [C/C++ Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) on your VSCode.
 
-Generate and modify a `task.json` to define run command for debugging.
+Modify a `./.vscode/task.json`
 ```
-Press `Ctrl + Shift + p` on VSCode
 ```
 
-Generate and modify a `launch.json` to define command for debugging.
+Modify a `./.vscode/task.json`
 ```
-Press `Ctrl + Shift + p` on VSCode
 ```
