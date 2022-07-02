@@ -124,17 +124,13 @@ These commands must be ran on **Commpand Prompt** of Windows not MSYS2.
 cd C:\msys64\home\{user_name}\FFmpeg
 mkdir .vscode
 cd .vscode
-type NUL > tasks.json
 type NUL > launch.json
 code .
 ```
 
 Install [C/C++ Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) on your VSCode.
 
-Modify a `.vscode/tasks.json`
-```
+Define `.vscode/launch.json`.
 ```
 
-Modify a `.vscode/launch.json`
-```
 ```
