@@ -117,7 +117,7 @@ code .
 
 Install [C/C++ Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) on your VSCode.
 
-Define `.vscode/launch.json`.
+Set `.vscode/launch.json`.
 ```
 
 ```
