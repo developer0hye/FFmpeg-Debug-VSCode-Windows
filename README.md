@@ -36,7 +36,7 @@ After build, `ffmpeg_g.exe` will be genereated in `~/FFmpeg`. Congratulation!
 
 If you downloaded MSYS2 following official guide, your FFmpeg project may be located in `C:\msys64\home\{user_name}\FFmpeg`.
 
-These commands must be ran on **Commpand Prompt** of Windows not MSYS2.
+These commands must be ran on **Commpand Prompt of Windows not MSYS2**.
 
 ```bash
 cd C:\msys64\home\{user_name}\FFmpeg
