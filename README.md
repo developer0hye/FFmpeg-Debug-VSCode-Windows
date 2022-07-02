@@ -13,8 +13,7 @@ Just follow [the official installation guide](https://www.msys2.org/#installatio
 These commands must be ran on **MSYS2** prompt.
 
 ```bash
-pacman -S git 
-pacman -S nasm yasm
+pacman -S git nasm yasm
 ```
 ## Clone & Build FFmpeg
 
