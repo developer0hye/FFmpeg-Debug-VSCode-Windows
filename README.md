@@ -99,19 +99,6 @@ make -j8
 
 After build, `ffmpeg_g.exe` will be genereated in `~/FFmpeg`. Congratulation!
 
-```bash
-yonghye@DESKTOP-OE4KJAL MINGW64 ~/FFmpeg
-$ ls
-CONTRIBUTING.md   LICENSE.md   config_components.h  fftools        libswscale
-COPYING.GPLv2     MAINTAINERS  configure            libavcodec     presets
-COPYING.GPLv3     Makefile     doc                  libavdevice    tests
-COPYING.LGPLv2.1  README.md    ffbuild              libavfilter    tools
-COPYING.LGPLv3    RELEASE      ffmpeg.exe           libavformat
-CREDITS           compat       ffmpeg_g.exe         libavutil
-Changelog         config.asm   ffprobe.exe          libpostproc
-INSTALL.md        config.h     ffprobe_g.exe        libswresample
-```
-
 ## Debug FFmpeg on VSCode!
 
 Open FFmpeg project on VSCode.
