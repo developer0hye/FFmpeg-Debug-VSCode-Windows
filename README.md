@@ -49,5 +49,28 @@ Install [C/C++ Extension](https://marketplace.visualstudio.com/items?itemName=ms
 
 Set `.vscode/launch.json`.
 ```
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "gdb",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/ffmpeg_g.exe",
+            "args": [""], //define your args!
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe"
+        }
 
+    ]
+}
 ```
+
+Press F5!
+
+![image](https://user-images.githubusercontent.com/35001605/177037876-81db2eb9-3c24-43ed-86c2-08bc66213a6e.png)
+
+The next step is to define your own `"args"` in `.vscode/launch.json` file.
